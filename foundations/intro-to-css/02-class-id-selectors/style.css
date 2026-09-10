@@ -1,1 +1,22 @@
 /* Add CSS Styling */
+
+.odd {
+    background-color: #e08080;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+#blue {
+    color:#245baf;
+    font-size: 36px;
+}
+
+.odd.third {
+    font-size: 24px;
+}
+
+#forth {
+    background-color: #adf88a;
+    font-size: 24px;
+    font-weight: bold;
+}
+
