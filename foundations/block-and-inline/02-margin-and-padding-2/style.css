@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background: gray;
   font-family: sans-serif;
@@ -7,14 +13,27 @@ body {
   width: 400px;
   background: white;
   margin: 16px auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .title,
 .content,
 .button-container {
   background: dodgerblue;
+  font-size: 16px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.button-container {
+  text-align: center;
+  margin-bottom: 0;
 }
 
 button {
+  display: block;
   background: white;
+  margin: 0 auto;
+  padding: 10px 25px;
 }
